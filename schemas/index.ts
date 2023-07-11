@@ -1,5 +1,6 @@
 import blockContent from './blockContent'
 import category from './category'
 import furniture from './furniture'
+import partners from './partners'
 
-export const schemaTypes = [furniture, category, blockContent]
+export const schemaTypes = [partners,furniture, category, blockContent]
