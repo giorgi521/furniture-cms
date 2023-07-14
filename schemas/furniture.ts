@@ -49,8 +49,8 @@ export default defineType({
       validation: rule => rule.required(),
     }),
     defineField({
-      name: 'whiteImage',
-      title: 'white image',
+      name: 'secondImage',
+      title: 'second image',
       type: 'image',
       options: {
         hotspot: true,
@@ -58,8 +58,8 @@ export default defineType({
       validation: rule => rule.required(),
     }),
     defineField({
-      name: 'grayImage',
-      title: 'gray image',
+      name: 'thirdImage',
+      title: 'third image',
       type: 'image',
       options: {
         hotspot: true,
